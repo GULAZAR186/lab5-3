@@ -1,0 +1,12 @@
+n = int(input())
+B = []
+
+for i in range(n):
+    eded = float(input())
+    B.append(eded)
+
+hasil = 1
+for i in range(B):
+    hasil *= B[i]
+hesabi orta=hasil**1/n
+print( hasil)
